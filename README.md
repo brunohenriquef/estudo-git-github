@@ -3,6 +3,7 @@
 **Este é um estudo público de Git e GitHub feito por mim (Bruno). Caso haja erros de ortografia ou informações erradas por favor me avise.**
 
 ---
+---
 
 # História Git e GitHub
 
@@ -34,15 +35,15 @@
    * Distribuido
    * Open Source
    * Feito em poucos dias e com qualidade
-   * Focalizando performance 
+   * Focado em performance 
 
 * **Em 2008 surgia o GitHub**
-   * Pago (mas com mente aberta, diferente do carinha de cima ai)
+   * Pago (mas com mente aberta, diferente do carinha da outra ferramenta de versionamento ai de cima )
    * Hospedagem de códigos com Git
    * Em 2018 foi comprado pela *Microsoft*
    * 2020 GitHub comprou a *NPM* (Node Package Manager)
 
-*Curiosidade: Em 2018 o GitHub levou o maior ataque DDoS da **história** conexões de 1.35 TB/s
+*Curiosidade: Em 2018 o GitHub levou o maior ataque DDoS da **história**, com conexões de **1.35 TB/s***
 
 ---
 ---
@@ -60,6 +61,8 @@
 * Ajudante de credencial
 * Configurando opções extras
 * Configurando opçõex experimentais
+
+---
 ---
 
 # Configurando Git
