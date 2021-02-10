@@ -69,7 +69,7 @@ Você poderá voltar no tempo para versões antigas com poucas linhas no termina
 
 # Instalando Git
 
-[Clique aqui para baixar o Git] (https://git-scm.com/)
+[Clique aqui para baixar o Git](https://git-scm.com/)
 
 **Na fase de instalação você irá configurar as seguintes coisas:**
 
@@ -132,8 +132,8 @@ Você poderá voltar no tempo para versões antigas com poucas linhas no termina
 
 # Fontes
 
-* Curso de Git e GitHub do professor Gustavo Guanabara [Clique aqui para visualizar] (https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-* Documentação do próprio site do Git [Clique aqui para visualizar] (https://git-scm.com/doc)
-* Documentação do site do GitHub [Clique aqui para visualizar] (https://docs.github.com/)
+* Curso de Git e GitHub do professor Gustavo Guanabara [Clique aqui para visualizar](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
+* Documentação do próprio site do Git [Clique aqui para visualizar](https://git-scm.com/doc)
+* Documentação do site do GitHub [Clique aqui para visualizar](https://docs.github.com/)
 
 
