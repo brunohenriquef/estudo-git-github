@@ -17,18 +17,21 @@
 * Configurando opçõex experimentais
 ---
 
-## Configurando Git***
+## Configurando Git
 
 **Todo comando do Git começa com (literalmente) a palavra `git`**
 
 * Primeiro precisamos configurar nosso nome de usuário e de e-mail. Para isso usamos o código:
+
    `git config --global user.name` e `git config --global user.email`
 Passando logo depois disto o valor entre aspas duplas:
+
    `git config --global user.name "Bruno"`
 
 *A parte `config` como o próprio nome ja diz, acessa as ferramentas de configuração do Git. Logo em seguida definimos `--global`, que englobará todos os repositórios da sua máquina*
 
 * Agora configuraremos o nosso editor de texto padrão (caso já tenha definido na instalação esta parte pode ser pulada):
+
    `git config --global core.editor "abreviatura do editor ou o caminho dele na sua máquina"`
 
 
