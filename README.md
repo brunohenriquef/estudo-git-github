@@ -19,13 +19,14 @@ Ao invés de você fazer uma cópia toda vez que achar que aquela versão está 
 
 Você poderá voltar no tempo para versões antigas com poucas linhas no terminal, caso faça *coisas erradas* no projeto.
 
-Versionato local por si só não resolve muita coisa, para isso precisamos enviar nosso código versionado para algum lugar, e este lugar escolhido é o GitHub (também há outras opções como o Bitbucket, Gitlab, etc).
+Versionamento local por si só não resolve muita coisa, para isso precisamos enviar nosso código versionado para algum lugar, e este lugar escolhido é o GitHub (também há outras opções como o Bitbucket, Gitlab, etc).
 
 ---
 
 # GitHub
 
 * O GitHub, um repositório remoto, conta com funcionalidades como:
+
    * Repositórios ilimitados
    * Possui características de redes sociais
    * Possibilidade de hospedar uma página web simples com GitHub Pages
@@ -143,7 +144,7 @@ Versionato local por si só não resolve muita coisa, para isso precisamos envia
 * Para iniciar um novo projeto (repositório) Git é necessário acessar a pasta dos arquivos que você deseja pelo terminal e digitar o seguinte comando:
    * `git init`
 
-* Com isso, o git irá criar um novo repositório e já irá inicializa-lo na pasta selecionada.
+* Com isso, o git irá criar um novo repositório e já irá inicializá-lo na pasta selecionada.
    * Se na pasta em questão já houver um repositório git criado ele irá reinicializar o projeto.
 
 * Feito o passo, o Git já estará pronto para ser usado.
@@ -152,18 +153,19 @@ Versionato local por si só não resolve muita coisa, para isso precisamos envia
    * Quando achar que já fez o bastante e gostaria de salvar o estado daquele projeto, abra novamente o terminal.
 
 * Para ver em que estava mexendo, digite: `git status` 
-   * Você pode perceber que os arquivos aparecerão em vermelho, isso significa que ele ja detectou mudanças nos arquivos desde a última checagem.
+   * Você pode perceber que os arquivos aparecerão em vermelho, isso significa que ele ja detectou mudanças desde a última checagem.
 
-* Para salvarmos a versão do projeto, faremos algo que se chama **commit**. Fazendo um commit, o Git criará um ponto na história, que podemos voltar mais adiante.
+* Para salvarmos a versão do projeto, faremos algo que se chama **commit**. Fazendo um commit, o Git criará um ponto na história, que poderemos voltar mais adiante.
    * Antes de fazermos o commit, precisamos indicar ao Git quais arquivos queremos que estejam incluídos nesse ponto da história. Para indicar quais arquivos devemos salvar, digite o comando:
       * `git add nomeDoArquivo`
       * Quando rodamos o comando, colocamos todos os arquivos selecionados em modo de **Staged** (está pronto para ser "commitado")
 
 * Agora, tudo que precisamos é literalmente fazer o commit, e para isso usa-se o seguinte comando:
+
    * `git commit -m "Deixe uma mensagem sobre o que é seu commit"`
       * O `-m` indica que iremos deixar uma mensagem, que é sobre quais mudanças você fez no código. Seja simples e direto.
 
-* Neste momento já temos nosso primeiro ponto na história do nosso projeto, em que poderemos retorna-lo a qualquer momento.
+* Neste momento já temos nosso primeiro ponto na história do projeto.
 
 * Para ver seus commits já feitos utilize o comando: 
    * `git log`
