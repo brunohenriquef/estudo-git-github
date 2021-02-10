@@ -24,7 +24,8 @@
 * Primeiro precisamos configurar nosso nome de usuário e de e-mail. Para isso usamos o código:
 
    `git config --global user.name` e `git config --global user.email`
-Passando logo depois disto o valor entre aspas duplas:
+   
+   Passando logo depois disto o valor entre aspas duplas:
 
    `git config --global user.name "Bruno"`
 
