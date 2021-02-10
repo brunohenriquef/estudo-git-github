@@ -27,12 +27,12 @@
 * Passando logo depois disto o valor entre aspas duplas:
    * `git config --global user.name "Bruno"`
 
-
-* *Para acessar uma informação salva só precisa digitar novamente o comando, mas desta vez não passando nenhum valor, desta forma ele retornará o dado.*
+---
+*Para acessar uma informação salva só precisa digitar novamente o comando, mas desta vez não passando nenhum valor, desta forma ele retornará o dado.*
 
 
 *A parte `config` como o próprio nome ja diz, acessa as ferramentas de configuração do Git. Logo em seguida definimos `--global`, que englobará todos os repositórios da sua máquina*
-
+---
 
 * Agora configuraremos o nosso editor de texto padrão (caso já tenha definido na instalação esta parte pode ser pulada):
    * `git config --global core.editor "abreviatura do editor ou o caminho dele na sua máquina"`
