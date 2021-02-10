@@ -1,9 +1,28 @@
 # Um estudo de Git e GitHub
 
-**Este é um estudo público de Git e GitHub feito por mim (Bruno). Caso haja erros de ortografia ou informações erradas por favor me avise.**
+**Este "guia" (que talvez eu mesmo não o considere assim) é mais um material de apoio. Recomendo saber o básico e usar este repositório para uma fonte rápida de consultas. No fim estará algumas fontes das quais tirei as informações com mais precisão.**
+
+**Este é um estudo público de Git e GitHub feito por mim (Bruno), para mim (Também Bruno). Caso haja erros de ortografia ou informações erradas por favor me avise.**
 
 ---
 ---
+
+# O que é um software de versionamento?
+
+## Git é um software de versionamento, isso significa que: 
+
+* É um programa que salva todos as versões e estados de seu projeto, monitorando diferenças feitas nos arquivos.
+* Possibilita trabalhar com mais pessoas sem dores de cabeça
+* Fácil de resolver conflitos de arquivos
+* Oferece segurança e organização
+
+Ao invés de você fazer uma cópia toda vez que achar que aquela versão está boa, apenas digite uns comandos e ficará salvo na história do projeto.
+
+Você poderá voltar no tempo para versões antigas com poucas linhas no terminal, caso faça *C A G A D A* no projeto.
+
+---
+---
+
 
 # História Git e GitHub
 
@@ -50,6 +69,10 @@
 
 # Instalando Git
 
+[Clique aqui para baixar o Git] (https://git-scm.com/)
+
+**Na fase de instalação você irá configurar as seguintes coisas:**
+
 * Componentes
 * Editor de texto padrão
 * Nome da branch principal
@@ -62,10 +85,14 @@
 * Configurando opções extras
 * Configurando opçõex experimentais
 
+*Feito isso está concluído*
+
 ---
 ---
 
 # Configurando Git
+
+* Abra o Git Bash ou seu terminal
 
 **Todo comando do Git começa com (literalmente) a palavra `git`**
 
@@ -98,6 +125,15 @@
    * E para listar todos os repositórios remotos de seu projeto utilize o comando:
       * `git remote -v`
 
-# 
+# Em construção
+
+---
+---
+
+# Fontes
+
+* Curso de Git e GitHub do professor Gustavo Guanabara [Clique aqui para visualizar] (https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
+* Documentação do próprio site do Git [Clique aqui para visualizar] (https://git-scm.com/doc)
+* Documentação do site do GitHub [Clique aqui para visualizar] (https://docs.github.com/)
 
 
