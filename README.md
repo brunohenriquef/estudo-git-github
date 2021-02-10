@@ -1,8 +1,8 @@
 # Um estudo de Git e GitHub
 
-**Este é um estudo público de Git e GitHub feito por mim (Bruno). Caso haja erros de ortografia ou informações erradas por favor me avise**
+**Este é um estudo público de Git e GitHub feito por mim (Bruno). Caso haja erros de ortografia ou informações erradas por favor me avise.**
 ---
-## Instalando Git***
+## Instalando Git
 
 * Componentes
 * Editor de texto padrão
@@ -22,17 +22,17 @@
 **Todo comando do Git começa com (literalmente) a palavra `git`**
 
 * Primeiro precisamos configurar nosso nome de usuário e de e-mail. Para isso usamos o código:
-`git config --global user.name` e `git config --global user.email`
+   `git config --global user.name` e `git config --global user.email`
 Passando logo depois disto o valor entre aspas duplas:
-`git config --global user.name "Bruno"`
+   `git config --global user.name "Bruno"`
 
 *A parte `config` como o próprio nome ja diz, acessa as ferramentas de configuração do Git. Logo em seguida definimos `--global`, que englobará todos os repositórios da sua máquina*
 
 * Agora configuraremos o nosso editor de texto padrão (caso já tenha definido na instalação esta parte pode ser pulada):
-`git config --global core.editor "abreviatura do editor ou o caminho dele na sua máquina"`
+   `git config --global core.editor "abreviatura do editor ou o caminho dele na sua máquina"`
 
 
 * Para listarmos todas as configurações do Git podemos usar o comando:
 
-`git config --list`
+   `git config --list`
 
