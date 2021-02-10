@@ -18,7 +18,7 @@
 
 Ao invés de você fazer uma cópia toda vez que achar que aquela versão está boa, apenas digite uns comandos e ficará salvo na história do projeto.
 
-Você poderá voltar no tempo para versões antigas com poucas linhas no terminal, caso faça *C A G A D A* no projeto.
+Você poderá voltar no tempo para versões antigas com poucas linhas no terminal, caso faça *coisas erradas* no projeto.
 
 ---
 ---
