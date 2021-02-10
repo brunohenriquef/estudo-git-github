@@ -21,22 +21,32 @@
 
 **Todo comando do Git começa com (literalmente) a palavra `git`**
 
-* Primeiro precisamos configurar nosso nome de usuário e de e-mail. Para isso usamos o código:
-
-   `git config --global user.name` e `git config --global user.email`
+* Primeiro precisamos configurar nosso nome de usuário e de e-mail. Para isso usamos o comando:
+   * `git config --global user.name` e `git config --global user.email`
    
-   Passando logo depois disto o valor entre aspas duplas:
+* Passando logo depois disto o valor entre aspas duplas:
+   * `git config --global user.name "Bruno"`
 
-   `git config --global user.name "Bruno"`
+
+* *Para acessar uma informação salva só precisa digitar novamente o comando, mas desta vez não passando nenhum valor, desta forma ele retornará o dado.*
+
 
 *A parte `config` como o próprio nome ja diz, acessa as ferramentas de configuração do Git. Logo em seguida definimos `--global`, que englobará todos os repositórios da sua máquina*
 
-* Agora configuraremos o nosso editor de texto padrão (caso já tenha definido na instalação esta parte pode ser pulada):
 
-   `git config --global core.editor "abreviatura do editor ou o caminho dele na sua máquina"`
+* Agora configuraremos o nosso editor de texto padrão (caso já tenha definido na instalação esta parte pode ser pulada):
+   * `git config --global core.editor "abreviatura do editor ou o caminho dele na sua máquina"`
 
 
 * Para listarmos todas as configurações do Git podemos usar o comando:
+   * `git config --list`
 
-   `git config --list`
+
+**Adicionando um repositório remoto**
+
+* Para adicionarmos um repositório remoto utilizamos o comando:
+   * `git remote add nomeDoRemote URL`
+   * E para listar todos os repositórios remotos de seu projeto utilize o comando:
+      *`git remote -v`
+
 
