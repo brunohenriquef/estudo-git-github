@@ -172,7 +172,56 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
       * Notará as datas, a chave do commit, a mensagem, o autor e o e-mail de quem fez.
 
 * Repita o processo quantas vezes achar necessário.
+
+* Aprenderemos como voltar versões um pouco mais adiante
+
 ---
+
+# Enviando seu projeto para o GitHub
+
+* Agora que aprendemos a fazer o versionamento local, e você já tem uma versão inicial de seu projeto, estamos prontos para enviá-lo para o repositório remoto (GitHub).
+
+* Vá para seu GitHub e crie um repositório
+
+* O próximo passo é o seguinte:
+
+   * Precisamos adicionar ao nosso Git o local onde devemos enviar nosso código. E para isso usamos o comando:
+
+      * `git remote add origin URLdoRepositórioNoGitHub`
+      
+         * Com isso já definimos o local. O **origin** nada mais é que um nome abreviado para quando formos enviar o código utilizar-mos ele, mas poderia ser qualquer outro nome (origin é o padrão).
+   
+   * Agora temos que fazer um **push** (que nada mais é do que literalmente enviar os códigos para o repositório remoto). 
+      * Utilizamos o seguinte comando: 
+
+         * `git push origin`
+            * Neste simples comando acabamos de enviar o nosso código.
+
+   * Um momento, amigo
+
+      * Quase esquecemos de uma preciosa parte! Você já deve ter notado que a seguinte mensagem apareceu:
+
+         * ```fatal: The current branch master has no upstream branch. To push the current branch and set the remote as upstream, use git push --set-upstream origin master ```
+         
+         * Ele está nos dizendo que precisamos definir nossa **branch** principal (veremos isso mais tarde). 
+         
+         * Podemos ignorar isto por enquanto apenas digitando o que ele pediu:
+
+            * `git push --set-upstream origin master` 
+               * Ou então uma versão mais curta `git push -u origin master`
+      
+      * Este tipo de mensagem não aparecerá tão cedo até mexermos com branchs
+
+      * Então, para dar push apenas utilize o comando mostrado um pouco mais acima `git push origin`
+
+
+* Agora que já subimos nosso código você pode ir lá conferir.
+
+   * Acesse seu GitHub e vá em seus repositórios, clique no selecionado e verá todos seus arquivos lá dentro.
+
+---
+
+
 
 # Fontes
 
