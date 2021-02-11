@@ -255,12 +255,12 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
          * Em seguida, escolha um tipo de licença (claro, você terá que ler todas elas para entender)
          * Após isso, clique em Review and submit
 
-      * Eu encorajo a todos que em seus projetos de não fins monetários, utilize a licença MIT (leia a licença). 
+      * Eu encorajo a todos que em seus projetos de fins não monetários, utilize a licença MIT (leia a licença). 
       * Assim ajudaremos nossa comunidade e incentivaremos mais pessoas a fazerem isso.
 
 ---
 
-
+# 
 
 
 # Fontes
