@@ -84,8 +84,8 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 
 [Clique aqui para baixar o Git](https://git-scm.com/)
 
-*A fase de instalação é tranquila e intuitiva*
-*Caso não saiba de algo apenas ignore, você poderá rodar o instalador novamente e mudar estas opções*
+* *A fase de instalação é tranquila e intuitiva*.
+* *Caso não saiba de algo apenas ignore, você poderá rodar o instalador novamente e mudar estas opções*.
 
 **Na fase de instalação você irá configurar as seguintes coisas:**
 
