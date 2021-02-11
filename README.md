@@ -74,7 +74,7 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
    * Em 2018 foi comprado pela *Microsoft*
    * Já em 2020, o GitHub comprou a *NPM* (Node Package Manager)
 
-*Curiosidade: Em 2018 o GitHub levou o maior ataque DDoS da **história**, com conexões de **1.35 TB/s***
+*Curiosidade: Em 2018, o GitHub levou o maior ataque DDoS da **história**, com conexões de **1.35 TB/s***
 
 ---
 
@@ -83,6 +83,9 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 # Instalando Git
 
 [Clique aqui para baixar o Git](https://git-scm.com/)
+
+*A fase de instalação é tranquila e intuitiva*
+*Caso não saiba de algo apenas ignore, você poderá rodar o instalador novamente e mudar estas opções*
 
 **Na fase de instalação você irá configurar as seguintes coisas:**
 
