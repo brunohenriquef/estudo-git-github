@@ -216,7 +216,7 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
       * Então, para dar push apenas utilize o comando mostrado um pouco mais acima `git push origin`
 
       * Ele irá pedir seu nome de usuário GitHub e senha, coloque.
-         * Dica, há algo no Git chamado Credential Helper, eu particularmente não uso e NÃO recomendo pois já tive problemas DEMAIS com isso. Como o nome diz, ele salva seus dados para que não precise ficar repetindo a ação de colocar senha e usuário.
+         * *Dica*: há algo no Git chamado Credential Helper, eu particularmente não uso e NÃO recomendo, pois já tive problemas DEMAIS com isso. Como o nome diz, ele salva seus dados para que não precise ficar repetindo a ação de colocar senha e usuário.
 
 
 * Agora que já subimos nosso código você pode ir lá conferir.
