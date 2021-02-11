@@ -130,12 +130,6 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
    * `git config --list`
 
 
-**Adicionando um repositório remoto**
-
-* Para adicionarmos um repositório remoto utilizamos o comando:
-   * `git remote add nomeDoRemote URL`
-   * E para listar todos os repositórios remotos de seu projeto utilize o comando:
-      * `git remote -v`
 
 ---
 
@@ -190,6 +184,8 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
       * `git remote add origin URLdoRepositórioNoGitHub`
       
          * Com isso já definimos o local. O **origin** nada mais é que um nome abreviado para quando formos enviar o código utilizar-mos ele, mas poderia ser qualquer outro nome (origin é o padrão).
+
+         * Dica: conseguimos ver todos nossos repositórios remotos com o comando `git remote -v`
    
    * Agora temos que fazer um **push** (que nada mais é do que literalmente enviar os códigos para o repositório remoto). 
       * Utilizamos o seguinte comando: 
