@@ -99,7 +99,7 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 * Comportamento do Git Pull
 * Ajudante de credencial
 * Configurando opções extras
-* Configurando opçõex experimentais
+* Configurando opções experimentais
 
 *Feito isso está concluído*
 
@@ -277,11 +277,22 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
    * Com o ponto escolhido, copie e cole a *hash* (o grande número depois da palavra commit)
       * Mesmo se ainda estiver em dúvida sobre o que foi alterado, utilize o comando `git show numeroDaHash` que ele te mostrará as mudanças dos arquivos.
       * Ou, se preferir, digite `git log --oneline`, e ele encurtará o hash e você pode selecionar apenas aquele número menor.
-   * Antes de fazer a operação tenha preferência de que o git esteja "limpo" (sem nada para commitar, e sem arquivos *staged*).
+      * Ou, ainda, se preferir, digite `git log arquivoQueVoceGostariaDeSaber`, e ele mostrará todos os commits envolvendo aquele arquivo em específico.
+   * Antes de fazer a operação tenha preferência de que o Git esteja "limpo" (sem nada para commitar, e sem arquivos *staged*).
    * Número copiado, mudanças em mente, hora de reverter:
-      * Para reverter digite o comando `git revert numeroDoHash`, com isso, ele abrirá uma nova página no seu editor de texto mostrando detalhes sobre isso, você pode simplesmente fechar. 
+      * Para reverter, digite o comando `git revert numeroDoHash`, com isso, ele abrirá uma nova página no seu editor de texto mostrando detalhes sobre isso, você pode simplesmente fechar. 
    * Voltando ao terminal e digitando `git log`, verá que agora temos um novo commit, descrito como ***This reverts commit numeroDoHashDoCommitAnterior***
    * Você acabou de voltar no tempo. 
+
+   * ### Uma outra forma:
+
+   * 
+---
+
+# Continua!
+
+### Esse estudo está sendo construido aos poucos! Atualizado todos os dias.
+
 ---
 
 # Fontes
