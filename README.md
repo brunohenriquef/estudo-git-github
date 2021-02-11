@@ -183,7 +183,7 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 
       * `git remote add origin URLdoRepositórioNoGitHub`
       
-         * Com isso já definimos o local. O **origin** nada mais é que um nome abreviado para quando formos enviar o código utilizar-mos ele, mas poderia ser qualquer outro nome (origin é o padrão).
+         * Com isso já definimos o local. O **origin** nada mais é que um nome abreviado para quando formos enviar o código utilizarmos ele, mas poderia ser qualquer outro nome (origin é o padrão).
 
          * Dica: conseguimos ver todos nossos repositórios remotos com o comando `git remote -v`
    
