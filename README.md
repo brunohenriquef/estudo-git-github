@@ -195,7 +195,7 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
          * `git push origin`
             * Neste simples comando acabamos de enviar o nosso código.
 
-   * Um momento, amigo
+   * Espere!
 
       * Quase esquecemos de uma preciosa parte! Você já deve ter notado que a seguinte mensagem apareceu:
 
