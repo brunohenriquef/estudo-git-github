@@ -164,6 +164,9 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
    * `git commit -m "Deixe uma mensagem sobre o que é seu commit"`
       * O `-m` indica que iremos deixar uma mensagem, que é sobre quais mudanças você fez no código. Seja simples e direto.
 
+
+
+
 * Neste momento já temos nosso primeiro ponto na história do projeto.
 
 * Para ver seus commits já feitos utilize o comando: 
