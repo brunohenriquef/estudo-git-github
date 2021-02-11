@@ -164,7 +164,7 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
    * `git commit -m "Deixe uma mensagem sobre o que é seu commit"`
       * O `-m` indica que iremos deixar uma mensagem, que é sobre quais mudanças você fez no código. Seja simples e direto.
 
-
+* **Ao invés do `-m`, podemos utilizar o `-am`. Com isso, o git irá automaticamente adicionar todos os arquivos modificados no estado *Staged* e fazer o commit, tudo de uma vez (não se esqueça de deixar a mensagem).**
 
 
 * Neste momento já temos nosso primeiro ponto na história do projeto.
@@ -266,8 +266,22 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 
 ---
 
-# 
+# Voltando no tempo
 
+* Como eu disse, a possibilidade de restaurar versões de arquivos é algo poderosíssimo, e para isso, vamos realizar os seguintes passos:
+
+   * ### Uma forma de fazer isso:
+
+   * Primeiramente digite `git log`, isso irá mostrar todos os commits do projeto.
+   * Se você seguiu a dica de ser simples e direto, saberá o que é cada ponto feito na história.
+   * Com o ponto escolhido, copie e cole a *hash* (o grande número depois da palavra commit)
+      * Mesmo se ainda estiver em dúvida sobre o que foi alterado, utilize o comando `git show numeroDaHash` que ele te mostrará as mudanças dos arquivos.
+      * Ou, se preferir, digite `git log --oneline`, e ele encurtará o hash e você pode selecionar apenas aquele número menor.
+   * Antes de fazer a operação tenha preferência de que o git esteja "limpo" (sem nada para commitar, e sem arquivos *staged*).
+   * Número copiado, mudanças em mente, hora de reverter:
+      * Para reverter digite o comando `git revert numeroDoHash`, com isso, ele abrirá uma nova página no seu editor de texto mostrando detalhes sobre isso, você pode simplesmente fechar. 
+   * Voltando ao terminal e digitando `git log`, verá que agora temos um novo commit, descrito como ***This reverts commit numeroDoHashDoCommitAnterior***
+   * Você acabou de voltar no tempo. 
 ---
 
 # Fontes
