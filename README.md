@@ -141,6 +141,8 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 * Com isso, o git irá criar um novo repositório e já irá inicializá-lo na pasta selecionada.
    * Se na pasta em questão já houver um repositório git criado ele irá reinicializar o projeto.
 
+* **Importante: Quando iniciamos um repositório Git, no diretório selecionado é criado uma pasta oculta chamada `.git`, nela é onde tudo fica salvo. Você pode acessá-la ativando as pastas ocultas de seu sistema operacional. Se excluirmos a pasta perdemos todo o histórico de nosso projeto, então cuidado.**
+
 * Feito o passo, o Git já estará pronto para ser usado.
 
 * Agora abra seu editor de texto na pasta selecionada e comece a trabalhar.
@@ -151,8 +153,8 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 
 * Para salvarmos a versão do projeto, faremos algo que se chama **commit**. Fazendo um commit, o Git criará um ponto na história, que poderemos voltar mais adiante.
    * Antes de fazermos o commit, precisamos indicar ao Git quais arquivos queremos que estejam incluídos nesse ponto da história. Para indicar quais arquivos devemos salvar, digite o comando:
-      * `git add nomeDoArquivo`
-      * Quando rodamos o comando, colocamos todos os arquivos selecionados em modo de **Staged** (está pronto para ser "commitado")
+      * `git add nomeDoArquivo` ou se preferir adicionar todos os arquivos troce o nome do arquivo por um ponto `.`.
+      * Quando rodamos o comando, colocamos todos os arquivos selecionados em modo de **Staged** (está pronto para ser "commitado").
 
 * Agora, tudo que precisamos é literalmente fazer o commit, e para isso usa-se o seguinte comando:
 
@@ -216,6 +218,45 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
    * Acesse seu GitHub e vá em seus repositórios, clique no selecionado e verá todos seus arquivos lá dentro.
 
 ---
+
+# Arquivo README e Licenças
+
+* Todo bom repositório que se preze possui instruções de como usar o projeto. Para isso adicionamos um arquivo chamado README, de extensão .md (extensão para linguagem Markdown).
+
+* Aliás, este estudo que está lendo foi feito todo na área README :)
+
+* O que é a linguagem *Markdown*?
+
+   * É uma linguagem de marcação, igual o HTML é.
+   * As vantagens do Markdown são: 
+      * Ele é mais fácil de aprender e usar, também é mais fácil a leitura do código.
+
+* Crie em sua pasta o arquivo README.md, o GitHub se encarregará de mostrá-lo na primeira página de seu repositório. 
+
+   * Utilize este arquivo para descrever seu código, o que ele faz, como usar e outras informações úteis.
+   * Para isso, como eu disse, usamos a linguagem Markdown. Não ensinarei ela aqui pois seria muito complicado, então segue um link de como usar (é simples, eu juro!) [Linguagem Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
+
+
+* **Licença**
+
+   * Além do README, todo bom repositório possui uma licença de uso.
+
+   * É com ela que diremos a quem visitar nosso perfil o que podem ou não fazer com o que desenvolvemos.
+
+      * Utilizaremos licenças prontas que o próprio GitHub nos oferece:
+
+         * Vá para seu repositório no GitHub e entre nele
+         * Crie um novo arquivo (no próprio GitHub, não em sua máquina)
+         * Nomeie ele de LICENSE (exatamente assim)
+         * Logo ao lado aparecerá a opção **Choose a license template**
+         * Em seguida, escolha um tipo de licença (claro, você terá que ler todas elas para entender)
+         * Após isso, clique em Review and submit
+
+      * Eu encorajo a todos que em seus projetos de não fins monetários, utilize a licença MIT (leia a licença). 
+      * Assim ajudaremos nossa comunidade e incentivaremos mais pessoas a fazerem isso.
+
+---
+
 
 
 
