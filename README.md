@@ -156,7 +156,7 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 
 * Para salvarmos a versão do projeto, faremos algo que se chama **commit**. Fazendo um commit, o Git criará um ponto na história, que poderemos voltar mais adiante.
    * Antes de fazermos o commit, precisamos indicar ao Git quais arquivos queremos que estejam incluídos nesse ponto da história. Para indicar quais arquivos devemos salvar, digite o comando:
-      * `git add nomeDoArquivo` ou se preferir adicionar todos os arquivos troce o nome do arquivo por um ponto `.`.
+      * `git add nomeDoArquivo` ou se preferir adicionar todos os arquivos troque o nome do arquivo por um ponto `.`.
       * Quando rodamos o comando, colocamos todos os arquivos selecionados em modo de **Staged** (está pronto para ser "commitado").
 
 * Agora, tudo que precisamos é literalmente fazer o commit, e para isso usa-se o seguinte comando:
