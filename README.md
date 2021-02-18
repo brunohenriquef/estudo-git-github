@@ -178,6 +178,7 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 
 * Repita o processo quantas vezes achar necessário.
 
+
 * Aprenderemos como voltar versões um pouco mais adiante
 
 ---
@@ -277,7 +278,7 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 * Antes de voltar no tempo, você pode ver as alterações que fez nos arquivos com o comando `git diff` para visualizar todos, ou `git diff nomeDoArquivo`.
    * Ou então, se estiver usando o Visual Studio Code, nos ícones da esquerda clique em Source Control. Vá até os arquivos modificados, clique com o direito e depois open changes. Desta forma ele abrirá uma nova aba mostrando todas as alterações de uma maneira visual mais agradável do que o terminal.
 
-   * ### Uma forma de fazer isso:
+   * ## Uma forma de fazer isso:
 
    * Primeiramente digite `git log`, isso irá mostrar todos os commits do projeto.
    * Se você seguiu a dica de ser simples e direto, saberá o que é cada ponto feito na história.
@@ -291,9 +292,17 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
    * Voltando ao terminal e digitando `git log`, verá que agora temos um novo commit, descrito como ***This reverts commit numeroDoHashDoCommitAnterior***
    * Você acabou de voltar no tempo. 
 
-   * ### Uma outra forma:
+   * ## Uma outra forma:
 
    * 
+
+   * ### Mudando mensagem de um commit
+      
+      * Para mudar uma mensagem feita em um commit existem algumas formas:
+         1. Mudando mensagem do commit mais recente: digite no terminal `git commit --amend`. Isso abrirá o seu editor de texto e lá dentro estará a mensagem de seu commit, substitua ela por sua nova mensagem. Salve e feche o arquivo, dê um `git log` e verá que a mensagem estará alterada.
+         Após isto dê um `push --force` para forçar o push feito no commit antigo.
+         
+         2. Mudando mensagens de commits mais antigos ou vários de uma vez: digite no terminal `git rebase -i HEAD~n` (sendo *n* o número de commits que você quer visualizar contanto do mais recente). Após isso seu editor de texto abrirá, e você notará a palavra **pick** após disso a hash e a mensagem do commit. 
 ---
 
 # Continua!
