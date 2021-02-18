@@ -82,6 +82,8 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 
 # Instalando Git
 
+* ***Antes de instalar o Git, recomendo instalar o Visual Studio Code da Microsoft. Esse editor nos permitirá ter uma ótima integração com o Git e nos fornecerá ajuda visual para certas questões***
+
 [Clique aqui para baixar o Git](https://git-scm.com/)
 
 * *A fase de instalação é tranquila e intuitiva*.
@@ -152,11 +154,12 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
    * Quando achar que já fez o bastante e gostaria de salvar o estado daquele projeto, abra novamente o terminal.
 
 * Para ver em que estava mexendo, digite: `git status` 
-   * Você pode perceber que os arquivos aparecerão em vermelho, isso significa que ele ja detectou mudanças desde a última checagem.
+   * Você pode perceber que os arquivos aparecerão em vermelho. Primeiramente os arquivos estarão como *untracked*, ou seja, o git não está monitorando as mudanças nestes arquivos. Para resolver este problema temos que *rastreá-los* (*tracked* files), utilizando o comando `git add nomeDoArquivo` (note que você só tera que rastreá-los uma única vez, após isso o Git estará detectando mudanças no arquivo). Depois disto, todas as mudanças continuarão aparecendo em vermelho, com a diferença que agora ele está detectando as mudanças feitas e não se o arquivo é novo ou não.
 
 * Para salvarmos a versão do projeto, faremos algo que se chama **commit**. Fazendo um commit, o Git criará um ponto na história, que poderemos voltar mais adiante.
-   * Antes de fazermos o commit, precisamos indicar ao Git quais arquivos queremos que estejam incluídos nesse ponto da história. Para indicar quais arquivos devemos salvar, digite o comando:
+   * Antes de fazermos o commit, precisamos indicar ao Git quais arquivos queremos que estejam incluídos nesse ponto da história. Para indicar quais arquivos devemos salvar, é o mesmo comando mostrado acima, digite:
       * `git add nomeDoArquivo` ou se preferir adicionar todos os arquivos troque o nome do arquivo por um ponto `.`.
+      * Se você já rastreou um arquivo e não fez alterações nele não precisará adicioná-lo duas vezes.
       * Quando rodamos o comando, colocamos todos os arquivos selecionados em modo de **Staged** (está pronto para ser "commitado").
 
 * Agora, tudo que precisamos é literalmente fazer o commit, e para isso usa-se o seguinte comando:
@@ -265,10 +268,14 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
       * Assim ajudaremos nossa comunidade e incentivaremos mais pessoas a fazerem isso.
 
 ---
+---
 
 # Voltando no tempo
 
 * Como eu disse, a possibilidade de restaurar versões de arquivos é algo poderosíssimo, e para isso, vamos realizar os seguintes passos:
+
+* Antes de voltar no tempo, você pode ver as alterações que fez nos arquivos com o comando `git diff` para visualizar todos, ou `git diff nomeDoArquivo`.
+   * Ou então, se estiver usando o Visual Studio Code, nos ícones da esquerda clique em Source Control. Vá até os arquivos modificados, clique com o direito e depois open changes. Desta forma ele abrirá uma nova aba mostrando todas as alterações de uma maneira visual mais agradável do que o terminal.
 
    * ### Uma forma de fazer isso:
 
