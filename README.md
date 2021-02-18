@@ -274,7 +274,7 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 
    * Primeiramente digite `git log`, isso irá mostrar todos os commits do projeto.
    * Se você seguiu a dica de ser simples e direto, saberá o que é cada ponto feito na história.
-   * Com o ponto escolhido, copie e cole a *hash* (o grande número depois da palavra commit)
+   * Com o ponto escolhido, copie o *hash* (o grande número depois da palavra commit)
       * Mesmo se ainda estiver em dúvida sobre o que foi alterado, utilize o comando `git show numeroDaHash` que ele te mostrará as mudanças dos arquivos.
       * Ou, se preferir, digite `git log --oneline`, e ele encurtará o hash e você pode selecionar apenas aquele número menor.
       * Ou, ainda, se preferir, digite `git log arquivoQueVoceGostariaDeSaber`, e ele mostrará todos os commits envolvendo aquele arquivo em específico.
