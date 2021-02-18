@@ -278,7 +278,11 @@ Versionamento local por si só não resolve muita coisa, para isso precisamos en
 * Antes de voltar no tempo, você pode ver as alterações que fez nos arquivos com o comando `git diff` para visualizar todos, ou `git diff nomeDoArquivo`.
    * Ou então, se estiver usando o Visual Studio Code, nos ícones da esquerda clique em Source Control. Vá até os arquivos modificados, clique com o direito e depois open changes. Desta forma ele abrirá uma nova aba mostrando todas as alterações de uma maneira visual mais agradável do que o terminal.
 
+<<<<<<< HEAD
    * ## Uma forma de fazer isso:
+=======
+   * ### Uma forma de fazer isso:
+>>>>>>> 6151f8d03699c1973cf8da93cc21e210323d29d9
 
    * Primeiramente digite `git log`, isso irá mostrar todos os commits do projeto.
    * Se você seguiu a dica de ser simples e direto, saberá o que é cada ponto feito na história.
